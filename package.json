@@ -10,7 +10,9 @@
   ],
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build:lib": "tsc && vite build",
+    "build:types": "tsc --emitDeclarationOnly",
+    "build": "pnpm build:lib && pnpm build:types",
     "preview": "vite preview",
     "test": "vitest",
     "coverage": "vitest run --coverage",

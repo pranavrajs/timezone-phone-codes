@@ -48,10 +48,10 @@ Returns the phone country code for the given timezone. If the timezone is not re
 
 This library supports a wide range of timezones. Here are a few examples:
 
-- 'America/New_York': '+1'
-- 'Europe/London': '+44'
-- 'Asia/Tokyo': '+81'
-- 'Australia/Sydney': '+61'
+- America/New_York: +1
+- Europe/London: +44
+- Asia/Tokyo: +81
+- Australia/Sydney: +61
 
 
 ## Testing

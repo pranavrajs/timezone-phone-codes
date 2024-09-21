@@ -1,6 +1,4 @@
-export interface TimezonePhoneCode {
-  [key: string]: string;
-}
+import { TimezonePhoneCode } from "./types";
 
 export const timezonePhoneCodes: TimezonePhoneCode = {
   "Africa/Abidjan": "+225",
