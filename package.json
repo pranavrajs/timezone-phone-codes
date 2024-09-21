@@ -1,0 +1,48 @@
+{
+  "name": "timezone-phone-codes",
+  "version": "0.0.1",
+  "description": "A simple library to return telephone codes based on timezone",
+  "main": "dist/timezone-phone-codes.umd.js",
+  "module": "dist/timezone-phone-codes.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
+    "prepublishOnly": "pnpm run test && pnpm run build"
+  },
+  "keywords": [
+    "timezone",
+    "phone codes",
+    "international"
+  ],
+  "author": "Pranav <pranavrajs@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pranavrajs/timezone-phone-codes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pranavrajs/timezone-phone-codes/issues"
+  },
+  "homepage": "https://github.com/pranavrajs/timezone-phone-codes#readme",
+  "exports": {
+    ".": {
+      "import": "./dist/timezone-phone-codes.es.js",
+      "require": "./dist/timezone-phone-codes.umd.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "dist/index.d.ts"
+      ]
+    }
+  }
+}
