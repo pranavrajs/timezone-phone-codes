@@ -1,6 +1,6 @@
 {
   "name": "timezone-phone-codes",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple library to return telephone codes based on timezone",
   "main": "dist/timezone-phone-codes.umd.js",
   "module": "dist/timezone-phone-codes.es.js",
